@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="con">  
+        
+  <center>  
+  <img src="stopwatch.png" style="width: 100px;height: 100px;padding-top: 20px;">
+    </center>
+        
+    <div class="con2">      
+    
+        <div class="numbers">
+            <div class="ind">
+                <h1 class="num" id="min"> 00</h1>
+                <h1 class="num dot" id="min"> :</h1>
+            </div>
+            <div class="ind">
+                <h1 id="sec" class="num">00</h1>
+                <h1 class="num dot" id="min"> :</h1>
+    
+            </div>
+            <div class="ind">
+                <h1 id="msec" class="num">00</h1>
+            </div>
+        </div>
+    </div>  
+        <div class="but">
+            <button class="rsp" style="background-color: black;border: black;color: #bb86fc;" onclick="reset()"><i class="fa fa-repeat fa-3x" aria-hidden="true"></i></button>
+            <button class="rsp" style="background-color: black;border: black;color: #bb86fc;" id="startbtn" onclick="start()" ><i class="fa fa-play fa-3x" aria-hidden="true"></i>
+            </button>
+            <button class="rsp" style="background-color: black;border: black;color: #bb86fc;" onclick="pause()"><i class="fa fa-stop fa-3x" aria-hidden="true"></i></button>
+        </div>
+        <h4 style="text-align: right;padding-right: 10px;color: gold;">By Tulaib Ahmed</h4>
+</div>
+<script src="app.js"></script>
+</body>
+</html> 
